@@ -2,9 +2,9 @@ object Form2: TForm2
   Left = 0
   Top = 0
   BorderIcons = [biSystemMenu, biMinimize]
-  Caption = 'Form2'
-  ClientHeight = 411
-  ClientWidth = 706
+  Caption = 'Add Your Product'
+  ClientHeight = 444
+  ClientWidth = 709
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -53,7 +53,7 @@ object Form2: TForm2
       Top = 37
       Width = 57
       Height = 23
-      Enabled = False
+      NumbersOnly = True
       TabOrder = 0
     end
     object edDesc: TEdit
@@ -86,25 +86,29 @@ object Form2: TForm2
       TabOrder = 4
       OnClick = btnSaveClick
     end
-    object LoadingAdd: TActivityIndicator
-      Left = 8
-      Top = 80
-    end
   end
   object GroupBox2: TGroupBox
     Left = 8
     Top = 157
     Width = 690
-    Height = 246
+    Height = 276
     Caption = 'Search Products'
     TabOrder = 1
-    object SearchBox1: TSearchBox
-      Left = 516
-      Top = 16
-      Width = 121
+    object Label5: TLabel
+      Left = 460
+      Top = 44
+      Width = 63
+      Height = 15
+      Caption = 'Search Here'
+    end
+    object Search: TSearchBox
+      Left = 529
+      Top = 40
+      Width = 140
       Height = 23
       TabOrder = 0
       TextHint = 'Search products'
+      OnChange = SearchChange
     end
     object DBGrid1: TDBGrid
       Left = 12
@@ -146,9 +150,15 @@ object Form2: TForm2
           Visible = True
         end>
     end
-    object loadingProducts: TActivityIndicator
-      Left = 3
-      Top = 31
+    object DBNavigator1: TDBNavigator
+      Left = 429
+      Top = 236
+      Width = 240
+      Height = 25
+      DataSource = DataSource1
+      VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbDelete]
+      TabOrder = 2
+      OnClick = DBNavigator1Click
     end
   end
   object DataSource1: TDataSource

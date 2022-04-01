@@ -2,6 +2,7 @@ object Form2: TForm2
   Left = 0
   Top = 0
   BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
   Caption = 'Add Your Product'
   ClientHeight = 444
   ClientWidth = 709
