@@ -3,6 +3,7 @@ object dmConexao: TdmConexao
   Width = 389
   object Connection: TFDConnection
     Params.Strings = (
+      'Database=C:\Joao\Projetos\C++\ConnectDB\src\DB\DB.fdb'
       'Port=3050'
       'Server=localhost'
       'Password=masterkey'
