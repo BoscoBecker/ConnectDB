@@ -1,0 +1,21 @@
+object DataModule1: TDataModule1
+  Height = 266
+  Width = 529
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=C:\Joao\Projetos\C++\ConnectDB\src\DB'
+      'DriverID=FB'
+      'Port=3050'
+      'Server=localhost'
+      'Password=masterkey'
+      'User_Name=sysdba')
+    LoginPrompt = False
+    Left = 144
+    Top = 80
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    Left = 248
+    Top = 80
+  end
+end

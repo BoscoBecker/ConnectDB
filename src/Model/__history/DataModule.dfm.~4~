@@ -1,0 +1,23 @@
+object dmConexao: TdmConexao
+  Height = 134
+  Width = 323
+  object Connection: TFDConnection
+    Params.Strings = (
+      'Database=C:\Joao\Projetos\C++\ConnectDB\src\DB'
+      'DriverID=FB'
+      'Port=3050'
+      'Server=localhost'
+      'Password=masterkey'
+      'User_Name=sysdba')
+    ResourceOptions.AssignedValues = [rvAutoReconnect]
+    ResourceOptions.AutoReconnect = True
+    LoginPrompt = False
+    Left = 72
+    Top = 32
+  end
+  object query: TFDQuery
+    Connection = Connection
+    Left = 168
+    Top = 32
+  end
+end

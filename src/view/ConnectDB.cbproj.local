@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/03/28 10:09:51.000.492,=C:\Users\DevDelphi\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2022/03/28 10:09:51.000.420,=C:\Users\DevDelphi\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2022/03/28 10:15:07.000.204,=C:\Users\DevDelphi\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2022/03/28 10:15:07.000.270,=C:\Users\DevDelphi\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2022/03/30 15:18:53.041,=C:\Users\DevDelphi\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2022/03/30 15:18:53.189,=C:\Users\DevDelphi\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2022/03/30 15:20:18.777,C:\Joao\Projetos\C++\ConnectDB\src\view\ViewMain.cpp=C:\Users\DevDelphi\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2022/03/30 15:20:18.777,C:\Joao\Projetos\C++\ConnectDB\src\view\ViewMain.h=C:\Users\DevDelphi\Documents\Embarcadero\Studio\Projects\Unit2.h</Transaction>
+    <Transaction>2022/03/30 15:20:18.777,C:\Joao\Projetos\C++\ConnectDB\src\view\ViewMain.dfm=C:\Users\DevDelphi\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2022/03/30 15:20:30.446,C:\Joao\Projetos\C++\ConnectDB\src\view\MainPCH1.h=C:\Users\DevDelphi\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2022/03/30 15:20:40.010,C:\Joao\Projetos\C++\ConnectDB\src\view\ConnectDB.cbproj=C:\Users\DevDelphi\Documents\Embarcadero\Studio\Projects\Project2.cbproj</Transaction>
+    <Transaction>2022/03/30 15:20:58.540,=C:\Joao\Projetos\C++\ConnectDB\src\view\Unit1.cpp</Transaction>
+    <Transaction>2022/03/30 15:22:23.218,=C:\Joao\Projetos\C++\ConnectDB\src\view\Unit1.cpp</Transaction>
+    <Transaction>2022/03/30 15:22:56.703,C:\Joao\Projetos\C++\ConnectDB\src\Model\DataModule.h=C:\Joao\Projetos\C++\ConnectDB\src\view\Unit1.h</Transaction>
+    <Transaction>2022/03/30 15:22:56.703,C:\Joao\Projetos\C++\ConnectDB\src\Model\DataModule.dfm=C:\Joao\Projetos\C++\ConnectDB\src\view\Unit1.dfm</Transaction>
+    <Transaction>2022/03/30 15:22:56.703,C:\Joao\Projetos\C++\ConnectDB\src\Model\DataModule.cpp=C:\Joao\Projetos\C++\ConnectDB\src\view\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
