@@ -10,8 +10,4 @@ Usando Style Windows 11
 
 ![image](https://user-images.githubusercontent.com/6303278/161311071-1dbc3a5b-f2c9-463d-bdb0-8e66cb3f40d6.png)
 
-
-
 Feito com C++Builder 11
-
-![image](https://user-images.githubusercontent.com/6303278/161312327-03af8039-f62a-49a7-ad34-238eb176a252.png)
