@@ -1,10 +1,16 @@
 # ConnectDB
 
+A ideia é aprender C++ partindo do básico e ir avançando com o tempo,
+nesse projeto eu fiz uma pequena ideia de MVC, onde o Insert e pesquisa 
+é feita no DataModule  pegado da view e passando para o model(DataModule).
+
+Talvez como próximo passo seria em vez de passagem de parâmetro usar
+Classe, passando objeto para a persistencia dos dados.
+
 
 # Aplicação de aprendizado C++ Usando como DBMS Firebird 2.5
 
 Realizando conexão com DB usando Firedac com C++ Builder, base de dados em: \src\DB\DB.FDB
-
 
 Usando Style Windows 11
 
